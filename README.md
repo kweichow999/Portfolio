@@ -1,2 +1,2 @@
 # Portfolio
-Cryptography (mining), OPTMZR, Python scripting, Servers/routing, PC building/optimization/resale
+PC building/optimization, OPTMZR, Python scripting, Hashpower renting
