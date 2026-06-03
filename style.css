@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: none;
+    color: azure;
+}
+
+body {
+    background-image: url(material/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:chartreuse;
+}
+
+.menu {
+    top: 0;
+    margin-top: 40px;
+    margin-left: 37%;
+    position: fixed;
+    scale: 2;
+    cursor: default;
+    z-index: 2;
+}
+
+#menu-button {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:black;
+    color:chartreuse;
+    transition: 0.5s;
+}
+
+#menu-button:hover {
+    scale: 1.025;
+    transition: 0.5s;
+}
+
+h1 {
+    padding-top: 100px;
+}
+
+.link {
+    color: chartreuse;
+}
+
+.text {
+    max-width: 80ch;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.download-link {
+    color: chartreuse;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.download-link:hover {
+    scale: 1.025;
+    transition: 0.5s;
+}
+
+.pc {
+    display: flex;
+    align-items: flex-start;
+    scale: 0.8;
+    margin-top: -100px;
+    justify-content: center;
+    gap: 15px;
+    z-index: 1;
+}
+
+.hash {
+    margin-top: 40px;
+}
+
+.contact {
+    margin-bottom: 30px;
+    cursor: pointer;
+    opacity: 5%;
+    transition: 0.5s
+}
+
+.contact:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
