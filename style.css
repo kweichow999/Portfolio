@@ -22,7 +22,7 @@ body {
 }
 
 .menu {
-    top: 30px;
+    top: 22px;
     position: fixed;
     cursor: default;
     z-index: 2;
@@ -34,6 +34,7 @@ body {
 }
 
 .menu-button {
+    text-decoration: none;
     cursor: pointer;
     border-style: none;
     border-radius: 999px;
@@ -54,6 +55,11 @@ body {
 .disclaimer {
     background-color: red;
     color: #ffff;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: -70px;
 }
 
 .link {
@@ -218,7 +224,7 @@ body {
     }
 
     .text {
-        max-width: 66%;
+        max-width: min(900px, 92vw);
     }
 
 }
